@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E643741C099F4A001D3947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E643731C099F4A001D3947 /* main.m */; };
+		D9E643771C099F4A001D3947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E643761C099F4A001D3947 /* AppDelegate.m */; };
+		D9E6437A1C099F4A001D3947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E643791C099F4A001D3947 /* ViewController.m */; };
+		D9E6437D1C099F4A001D3947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E6437B1C099F4A001D3947 /* Main.storyboard */; };
+		D9E6437F1C099F4A001D3947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E6437E1C099F4A001D3947 /* Assets.xcassets */; };
+		D9E643821C099F4A001D3947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E643801C099F4A001D3947 /* LaunchScreen.storyboard */; };
+		D9E6438D1C099F4A001D3947 /* Chessboard_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6438C1C099F4A001D3947 /* Chessboard_TestTests.m */; };
+		D9E643981C099F4A001D3947 /* Chessboard_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E643971C099F4A001D3947 /* Chessboard_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9E643891C099F4A001D3947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E643671C099F4A001D3947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E6436E1C099F4A001D3947;
+			remoteInfo = "Chessboard Test";
+		};
+		D9E643941C099F4A001D3947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9E643671C099F4A001D3947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9E6436E1C099F4A001D3947;
+			remoteInfo = "Chessboard Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9E6436F1C099F4A001D3947 /* Chessboard Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chessboard Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E643731C099F4A001D3947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9E643751C099F4A001D3947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9E643761C099F4A001D3947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9E643781C099F4A001D3947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9E643791C099F4A001D3947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9E6437C1C099F4A001D3947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9E6437E1C099F4A001D3947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9E643811C099F4A001D3947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E643831C099F4A001D3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E643881C099F4A001D3947 /* Chessboard TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chessboard TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E6438C1C099F4A001D3947 /* Chessboard_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chessboard_TestTests.m; sourceTree = "<group>"; };
+		D9E6438E1C099F4A001D3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E643931C099F4A001D3947 /* Chessboard TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chessboard TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E643971C099F4A001D3947 /* Chessboard_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chessboard_TestUITests.m; sourceTree = "<group>"; };
+		D9E643991C099F4B001D3947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E6436C1C099F4A001D3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E643851C099F4A001D3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E643901C099F4A001D3947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E643661C099F4A001D3947 = {
+			isa = PBXGroup;
+			children = (
+				D9E643711C099F4A001D3947 /* Chessboard Test */,
+				D9E6438B1C099F4A001D3947 /* Chessboard TestTests */,
+				D9E643961C099F4A001D3947 /* Chessboard TestUITests */,
+				D9E643701C099F4A001D3947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E643701C099F4A001D3947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E6436F1C099F4A001D3947 /* Chessboard Test.app */,
+				D9E643881C099F4A001D3947 /* Chessboard TestTests.xctest */,
+				D9E643931C099F4A001D3947 /* Chessboard TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E643711C099F4A001D3947 /* Chessboard Test */ = {
+			isa = PBXGroup;
+			children = (
+				D9E643751C099F4A001D3947 /* AppDelegate.h */,
+				D9E643761C099F4A001D3947 /* AppDelegate.m */,
+				D9E643781C099F4A001D3947 /* ViewController.h */,
+				D9E643791C099F4A001D3947 /* ViewController.m */,
+				D9E6437B1C099F4A001D3947 /* Main.storyboard */,
+				D9E6437E1C099F4A001D3947 /* Assets.xcassets */,
+				D9E643801C099F4A001D3947 /* LaunchScreen.storyboard */,
+				D9E643831C099F4A001D3947 /* Info.plist */,
+				D9E643721C099F4A001D3947 /* Supporting Files */,
+			);
+			path = "Chessboard Test";
+			sourceTree = "<group>";
+		};
+		D9E643721C099F4A001D3947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E643731C099F4A001D3947 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E6438B1C099F4A001D3947 /* Chessboard TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E6438C1C099F4A001D3947 /* Chessboard_TestTests.m */,
+				D9E6438E1C099F4A001D3947 /* Info.plist */,
+			);
+			path = "Chessboard TestTests";
+			sourceTree = "<group>";
+		};
+		D9E643961C099F4A001D3947 /* Chessboard TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9E643971C099F4A001D3947 /* Chessboard_TestUITests.m */,
+				D9E643991C099F4B001D3947 /* Info.plist */,
+			);
+			path = "Chessboard TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9E6436E1C099F4A001D3947 /* Chessboard Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E6439C1C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard Test" */;
+			buildPhases = (
+				D9E6436B1C099F4A001D3947 /* Sources */,
+				D9E6436C1C099F4A001D3947 /* Frameworks */,
+				D9E6436D1C099F4A001D3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chessboard Test";
+			productName = "Chessboard Test";
+			productReference = D9E6436F1C099F4A001D3947 /* Chessboard Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9E643871C099F4A001D3947 /* Chessboard TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E6439F1C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard TestTests" */;
+			buildPhases = (
+				D9E643841C099F4A001D3947 /* Sources */,
+				D9E643851C099F4A001D3947 /* Frameworks */,
+				D9E643861C099F4A001D3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E6438A1C099F4A001D3947 /* PBXTargetDependency */,
+			);
+			name = "Chessboard TestTests";
+			productName = "Chessboard TestTests";
+			productReference = D9E643881C099F4A001D3947 /* Chessboard TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9E643921C099F4A001D3947 /* Chessboard TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E643A21C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard TestUITests" */;
+			buildPhases = (
+				D9E6438F1C099F4A001D3947 /* Sources */,
+				D9E643901C099F4A001D3947 /* Frameworks */,
+				D9E643911C099F4A001D3947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9E643951C099F4A001D3947 /* PBXTargetDependency */,
+			);
+			name = "Chessboard TestUITests";
+			productName = "Chessboard TestUITests";
+			productReference = D9E643931C099F4A001D3947 /* Chessboard TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E643671C099F4A001D3947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Conor Sweeney";
+				TargetAttributes = {
+					D9E6436E1C099F4A001D3947 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D9E643871C099F4A001D3947 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9E6436E1C099F4A001D3947;
+					};
+					D9E643921C099F4A001D3947 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9E6436E1C099F4A001D3947;
+					};
+				};
+			};
+			buildConfigurationList = D9E6436A1C099F4A001D3947 /* Build configuration list for PBXProject "Chessboard Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9E643661C099F4A001D3947;
+			productRefGroup = D9E643701C099F4A001D3947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E6436E1C099F4A001D3947 /* Chessboard Test */,
+				D9E643871C099F4A001D3947 /* Chessboard TestTests */,
+				D9E643921C099F4A001D3947 /* Chessboard TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E6436D1C099F4A001D3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E643821C099F4A001D3947 /* LaunchScreen.storyboard in Resources */,
+				D9E6437F1C099F4A001D3947 /* Assets.xcassets in Resources */,
+				D9E6437D1C099F4A001D3947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E643861C099F4A001D3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E643911C099F4A001D3947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E6436B1C099F4A001D3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E6437A1C099F4A001D3947 /* ViewController.m in Sources */,
+				D9E643771C099F4A001D3947 /* AppDelegate.m in Sources */,
+				D9E643741C099F4A001D3947 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E643841C099F4A001D3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E6438D1C099F4A001D3947 /* Chessboard_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E6438F1C099F4A001D3947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E643981C099F4A001D3947 /* Chessboard_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9E6438A1C099F4A001D3947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E6436E1C099F4A001D3947 /* Chessboard Test */;
+			targetProxy = D9E643891C099F4A001D3947 /* PBXContainerItemProxy */;
+		};
+		D9E643951C099F4A001D3947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9E6436E1C099F4A001D3947 /* Chessboard Test */;
+			targetProxy = D9E643941C099F4A001D3947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9E6437B1C099F4A001D3947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E6437C1C099F4A001D3947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9E643801C099F4A001D3947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9E643811C099F4A001D3947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9E6439A1C099F4B001D3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9E6439B1C099F4B001D3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9E6439D1C099F4B001D3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chessboard Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9E6439E1C099F4B001D3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chessboard Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9E643A01C099F4B001D3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chessboard TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chessboard Test.app/Chessboard Test";
+			};
+			name = Debug;
+		};
+		D9E643A11C099F4B001D3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Chessboard TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chessboard Test.app/Chessboard Test";
+			};
+			name = Release;
+		};
+		D9E643A31C099F4B001D3947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chessboard TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chessboard Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9E643A41C099F4B001D3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Chessboard TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AME.Chessboard-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Chessboard Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E6436A1C099F4A001D3947 /* Build configuration list for PBXProject "Chessboard Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E6439A1C099F4B001D3947 /* Debug */,
+				D9E6439B1C099F4B001D3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E6439C1C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E6439D1C099F4B001D3947 /* Debug */,
+				D9E6439E1C099F4B001D3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9E6439F1C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E643A01C099F4B001D3947 /* Debug */,
+				D9E643A11C099F4B001D3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9E643A21C099F4B001D3947 /* Build configuration list for PBXNativeTarget "Chessboard TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E643A31C099F4B001D3947 /* Debug */,
+				D9E643A41C099F4B001D3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E643671C099F4A001D3947 /* Project object */;
+}
